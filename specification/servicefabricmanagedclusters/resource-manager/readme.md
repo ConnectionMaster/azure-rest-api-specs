@@ -27,7 +27,7 @@ These are the global settings for the ServiceFabricManagedClustersManagementClie
 title: ServiceFabricManagedClustersManagementClient
 description: Service Fabric Managed Clusters Management Client
 openapi-type: arm
-tag: package-2021-05
+tag: package-2023-12-preview
 
 directive:
   - suppress: ListInOperationName
@@ -68,15 +68,170 @@ directive:
       - Currently systemData is not allowed.
 
 ```
+
+### Tag: package-2023-12-preview
+
+These settings apply only when `--tag=package-2023-12-preview` is specified on the command line.
+
+``` yaml $(tag) == 'package-2023-12-preview'
+input-file:
+- Microsoft.ServiceFabric/preview/2023-12-01-preview/managedapplication.json
+- Microsoft.ServiceFabric/preview/2023-12-01-preview/managedcluster.json
+- Microsoft.ServiceFabric/preview/2023-12-01-preview/nodetype.json
+```
+
+### Tag: package-2023-11-preview
+
+These settings apply only when `--tag=package-2023-11-preview` is specified on the command line.
+
+``` yaml $(tag) == 'package-2023-11-preview'
+input-file:
+- Microsoft.ServiceFabric/preview/2023-11-01-preview/managedapplication.json
+- Microsoft.ServiceFabric/preview/2023-11-01-preview/managedcluster.json
+- Microsoft.ServiceFabric/preview/2023-11-01-preview/nodetype.json
+```
+
+### Tag: package-2023-09-preview
+
+These settings apply only when `--tag=package-2023-09-preview` is specified on the command line.
+
+``` yaml $(tag) == 'package-2023-09-preview'
+input-file:
+- Microsoft.ServiceFabric/preview/2023-09-01-preview/managedapplication.json
+- Microsoft.ServiceFabric/preview/2023-09-01-preview/managedcluster.json
+- Microsoft.ServiceFabric/preview/2023-09-01-preview/nodetype.json
+```
+
+### Tag: package-2023-07-preview
+
+These settings apply only when `--tag=package-2023-07-preview` is specified on the command line.
+
+``` yaml $(tag) == 'package-2023-07-preview'
+input-file:
+- Microsoft.ServiceFabric/preview/2023-07-01-preview/managedapplication.json
+- Microsoft.ServiceFabric/preview/2023-07-01-preview/managedcluster.json
+- Microsoft.ServiceFabric/preview/2023-07-01-preview/nodetype.json
+```
+
+### Tag: package-2023-03-preview
+
+These settings apply only when `--tag=package-2023-03-preview` is specified on the command line.
+
+``` yaml $(tag) == 'package-2023-03-preview'
+input-file:
+- Microsoft.ServiceFabric/preview/2023-03-01-preview/managedapplication.json
+- Microsoft.ServiceFabric/preview/2023-03-01-preview/managedcluster.json
+- Microsoft.ServiceFabric/preview/2023-03-01-preview/nodetype.json
+```
+
+### Tag: package-2023-02-preview
+
+These settings apply only when `--tag=package-2023-02-preview` is specified on the command line.
+
+``` yaml $(tag) == 'package-2023-02-preview'
+input-file:
+- Microsoft.ServiceFabric/preview/2023-02-01-preview/managedapplication.json
+- Microsoft.ServiceFabric/preview/2023-02-01-preview/managedcluster.json
+- Microsoft.ServiceFabric/preview/2023-02-01-preview/nodetype.json
+```
+
+### Tag: package-2022-10-preview
+
+These settings apply only when `--tag=package-2022-10-preview` is specified on the command line.
+
+``` yaml $(tag) == 'package-2022-10-preview'
+input-file:
+- Microsoft.ServiceFabric/preview/2022-10-01-preview/managedapplication.json
+- Microsoft.ServiceFabric/preview/2022-10-01-preview/managedcluster.json
+- Microsoft.ServiceFabric/preview/2022-10-01-preview/nodetype.json
+```
+
+### Tag: package-2022-08-preview
+
+These settings apply only when `--tag=package-2022-08-preview` is specified on the command line.
+
+``` yaml $(tag) == 'package-2022-08-preview'
+input-file:
+- Microsoft.ServiceFabric/preview/2022-08-01-preview/managedapplication.json
+- Microsoft.ServiceFabric/preview/2022-08-01-preview/managedcluster.json
+- Microsoft.ServiceFabric/preview/2022-08-01-preview/nodetype.json
+```
+
+### Tag: package-2022-06-preview
+
+These settings apply only when `--tag=package-2022-06-preview` is specified on the command line.
+
+``` yaml $(tag) == 'package-2022-06-preview'
+input-file:
+- Microsoft.ServiceFabric/preview/2022-06-01-preview/managedapplication.json
+- Microsoft.ServiceFabric/preview/2022-06-01-preview/managedcluster.json
+- Microsoft.ServiceFabric/preview/2022-06-01-preview/nodetype.json
+```
+
+### Tag: package-2022-02-preview
+
+These settings apply only when `--tag=package-2022-02-preview` is specified on the command line.
+
+``` yaml $(tag) == 'package-2022-02-preview'
+input-file:
+- Microsoft.ServiceFabric/preview/2022-02-01-preview/managedapplication.json
+- Microsoft.ServiceFabric/preview/2022-02-01-preview/managedcluster.json
+- Microsoft.ServiceFabric/preview/2022-02-01-preview/nodetype.json
+```
+
+### Tag: package-2022-01
+
+These settings apply only when `--tag=package-2022-01` is specified on the command line.
+
+``` yaml $(tag) == 'package-2022-01'
+input-file:
+- Microsoft.ServiceFabric/stable/2022-01-01/managedapplication.json
+- Microsoft.ServiceFabric/stable/2022-01-01/managedcluster.json
+- Microsoft.ServiceFabric/stable/2022-01-01/nodetype.json
+```
+
+### Tag: package-2021-11-preview
+
+These settings apply only when `--tag=package-2021-11-preview` is specified on the command line.
+
+``` yaml $(tag) == 'package-2021-11-preview'
+input-file:
+- Microsoft.ServiceFabric/preview/2021-11-01-preview/managedapplication.json
+- Microsoft.ServiceFabric/preview/2021-11-01-preview/managedcluster.json
+- Microsoft.ServiceFabric/preview/2021-11-01-preview/nodetype.json
+```
+
+### Tag: package-2021-09-privatepreview
+
+These settings apply only when `--tag=package-2021-09-privatepreview` is specified on the command line.
+
+``` yaml $(tag) == 'package-2021-09-privatepreview'
+input-file:
+- Microsoft.ServiceFabric/preview/2021-09-01-privatepreview/managedapplication.json
+- Microsoft.ServiceFabric/preview/2021-09-01-privatepreview/managedcluster.json
+- Microsoft.ServiceFabric/preview/2021-09-01-privatepreview/nodetype.json
+```
+
+### Tag: package-2021-07-preview
+
+These settings apply only when `--tag=package-2021-07-preview` is specified on the command line.
+
+``` yaml $(tag) == 'package-2021-07-preview'
+input-file:
+- Microsoft.ServiceFabric/preview/2021-07-01-preview/managedapplication.json
+- Microsoft.ServiceFabric/preview/2021-07-01-preview/managedcluster.json
+- Microsoft.ServiceFabric/preview/2021-07-01-preview/nodetype.json
+```
+
 ### Tag: package-2021-05
 
 These settings apply only when `--tag=package-2021-05` is specified on the command line.
 
 ``` yaml $(tag) == 'package-2021-05'
 input-file:
-- Microsoft.ServiceFabricManagedClusters/stable/2021-05-01/managedapplication.json
-- Microsoft.ServiceFabricManagedClusters/stable/2021-05-01/managedcluster.json
-- Microsoft.ServiceFabricManagedClusters/stable/2021-05-01/nodetype.json
+- Microsoft.ServiceFabric/stable/2021-05-01/managedapplication.json
+- Microsoft.ServiceFabric/stable/2021-05-01/managedcluster.json
+- Microsoft.ServiceFabric/stable/2021-05-01/nodetype.json
 ```
 
 ### Tag: package-2021-01-preview
@@ -85,9 +240,23 @@ These settings apply only when `--tag=package-2021-01-preview` is specified on t
 
 ``` yaml $(tag) == 'package-2021-01-preview'
 input-file:
-- Microsoft.ServiceFabricManagedClusters/preview/2021-01-01-preview/managedapplication.json
-- Microsoft.ServiceFabricManagedClusters/preview/2021-01-01-preview/managedcluster.json
-- Microsoft.ServiceFabricManagedClusters/preview/2021-01-01-preview/nodetype.json
+- Microsoft.ServiceFabric/preview/2021-01-01-preview/managedapplication.json
+- Microsoft.ServiceFabric/preview/2021-01-01-preview/managedcluster.json
+- Microsoft.ServiceFabric/preview/2021-01-01-preview/nodetype.json
+```
+
+### AutoRest v3 Suppressions
+``` yaml
+suppressions:
+    
+  - code: ResourceNameRestriction
+    reason: the service does not have a pattern restriction. ARM's default rule should get applied.
+
+  - code: PutResponseSchemaDescription
+    reason: service created with the 202 pattern before this rule was introduced.
+  
+  - code: LroErrorContent
+    reason: Work planned (https://msazure.visualstudio.com/One/_workitems/edit/24841215) but its going to take some time because we generate the swagger from an internal repo that currently can't reference the common types.
 ```
 
 ---
@@ -101,9 +270,10 @@ This is not used by Autorest itself.
 
 ``` yaml $(swagger-to-sdk)
 swagger-to-sdk:
-  - repo: azure-sdk-for-net
+  - repo: azure-sdk-for-net-track2
   - repo: azure-sdk-for-python-track2
   - repo: azure-resource-manager-schemas
+  - repo: azure-powershell
 ```
 
 ## C#
